@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+
+#mainpage{
+    height: 100vh;
+    width: 100vw;
+    border: 5px solid crimson;
+    position: relative;
+}
+
+.buttonlist{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 25px;
+}
+.buttonlist button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+}
+
